@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arclent — Hire Verified Creators</title>
+  <link rel="icon" href="assets/img/favicon/favicon.ico">
+  <link href="assets/css/output.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="landing-brutal min-h-screen relative selection:bg-primary/30 selection:text-black">
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- ── FLOATING BORDERED PILL NAV ── -->
+  <div class="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
+    <nav class="brutal-nav flex items-center gap-6 px-6 py-3 w-full max-w-3xl" id="pill-nav">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2 mr-auto">
+        <img src="assets/img/logo.png" alt="Arclent" class="h-9">
+      </a>
+      <!-- Links -->
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#how" class="text-sm font-bold uppercase tracking-wide text-black hover:text-green-600 transition-colors">
+          How it works
+        </a>
+        <a href="#" class="text-sm font-bold uppercase tracking-wide text-black hover:text-green-600 transition-colors">
+          Jobs
+        </a>
+        <a href="#" class="text-sm font-bold uppercase tracking-wide text-black hover:text-green-600 transition-colors">
+          Talent
+        </a>
+      </div>
+      <!-- CTA -->
+      <a href="#" class="btn-brutal btn-brutal-primary text-sm px-5 py-2">Get Started ↗</a>
+    </nav>
+  </div>
+
+  <main id="main" class="brutal-grid-bg min-h-screen">
+
+    <!-- ══════════════════════════════════════
+         HERO
+    ══════════════════════════════════════ -->
+    <section class="relative overflow-hidden pt-48 pb-24 text-center px-4">
+      <div class="relative z-10 max-w-5xl mx-auto fade-up">
+
+        <!-- Pill badge -->
+        <div class="brutal-badge hero-badge mb-8 mx-auto w-fit">
+          <span class="green-dot"></span>
+          2,400+ New roles added this week
+        </div>
+
+        <!-- Hero headline -->
+        <h1 id="hero-h1" class="text-[clamp(2.6rem,8vw,5.2rem)] font-black leading-[1.05] text-black mb-8" style="letter-spacing: -0.03em;">
+          Stop Hiring Fraudsters.<br>
+          <span class="brutal-highlight">Start Hiring Talent.</span>
+        </h1>
+
+        <!-- Sub -->
+        <p class="text-lg md:text-xl text-neutral-700 max-w-2xl mx-auto mb-10 font-medium leading-relaxed fade-up delay-1">
+          The only creator hiring platform where every portfolio is cryptographically verified. No fakes, no inflated metrics — just real talent.
+        </p>
+
+        <!-- Social proof pills -->
+        <div class="flex flex-wrap items-center justify-center gap-3 mb-12">
+          <span class="proof-pill flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold text-black">
+            <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black flex items-center justify-center text-white text-[10px] font-bold">✓</span>
+            10K+ Active Creators
+          </span>
+          <span class="proof-pill flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold text-black">
+            <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black flex items-center justify-center text-white text-[10px] font-bold">✓</span>
+            850+ Companies
+          </span>
+          <span class="proof-pill flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold text-black">
+            <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black flex items-center justify-center text-white text-[10px] font-bold">✓</span>
+            45K+ Verified Profiles
+          </span>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#" class="btn-brutal btn-brutal-primary w-full sm:w-auto justify-center">
+            Hire Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+          <a href="#" class="btn-brutal btn-brutal-accent w-full sm:w-auto justify-center">
+            Apply Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Interactive Verified Profile Mockup -->
+        <div class="mt-20 max-w-4xl mx-auto px-4 fade-up delay-2">
+          <div class="brutal-card p-6 md:p-8 text-left" id="hero-mockup">
+
+            <!-- Mockup Header -->
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b-[3px] border-black pb-6 mb-6">
+              <div class="flex items-center gap-4">
+                <!-- Avatar -->
+                <div class="relative">
+                  <div class="w-16 h-16 rounded-full bg-green-500 border-[3px] border-black flex items-center justify-center text-xl font-black text-white">
+                    JV
+                  </div>
+                  <!-- Verification badge -->
+                  <span class="absolute -bottom-1 -right-1 bg-yellow-300 text-black text-[10px] w-6 h-6 rounded-full flex items-center justify-center font-bold border-2 border-black">✓</span>
+                </div>
+                <div>
+                  <div class="flex items-center gap-2">
+                    <h3 class="text-lg font-black text-black">Jordan Vance</h3>
+                    <span class="text-[10px] uppercase font-bold bg-cyan-300 text-black px-2 py-0.5 rounded-full border-2 border-black">DIAMOND TIER</span>
+                  </div>
+                  <p class="text-xs text-neutral-600 font-medium">Cinematic Video Editor & Colorist</p>
+                </div>
+              </div>
+
+              <div class="flex gap-2">
+                <span class="flex items-center gap-1.5 px-3 py-1 bg-white border-2 border-black rounded-full text-xs font-semibold text-black">
+                  <span class="w-2 h-2 rounded-full bg-red-500 border border-black"></span> YouTube Verified
+                </span>
+                <span class="flex items-center gap-1.5 px-3 py-1 bg-white border-2 border-black rounded-full text-xs font-semibold text-black">
+                  <span class="w-2 h-2 rounded-full bg-purple-500 border border-black"></span> Twitch Verified
+                </span>
+              </div>
+            </div>
+
+            <!-- Mockup Content Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <!-- Stats Column -->
+              <div class="space-y-4">
+                <p class="text-[10px] font-bold uppercase tracking-wider text-neutral-500">CRYPTOGRAPHIC AUDIT</p>
+
+                <div class="p-4 bg-yellow-50 border-2 border-black rounded-xl">
+                  <p class="text-xs text-neutral-600 font-medium">Verified Subscribers</p>
+                  <p class="text-2xl font-black text-black mt-1">2.4M <span class="text-xs text-green-600 font-bold">↑ 12%</span></p>
+                </div>
+                <div class="p-4 bg-yellow-50 border-2 border-black rounded-xl">
+                  <p class="text-xs text-neutral-600 font-medium">Average Engagement</p>
+                  <p class="text-2xl font-black text-black mt-1">6.8% <span class="text-xs text-green-600 font-bold">Top 5%</span></p>
+                </div>
+                <div class="p-4 bg-yellow-50 border-2 border-black rounded-xl">
+                  <p class="text-xs text-neutral-600 font-medium">Verified Views / Video</p>
+                  <p class="text-2xl font-black text-black mt-1">450K <span class="text-xs text-neutral-500 font-bold">Via API</span></p>
+                </div>
+              </div>
+
+              <!-- Chart Column -->
+              <div class="md:col-span-2 flex flex-col justify-between p-6 bg-green-50 border-2 border-black rounded-2xl relative overflow-hidden">
+                <div class="flex justify-between items-center mb-4">
+                  <div>
+                    <h4 class="text-sm font-black text-black">Verified Audience Growth</h4>
+                    <p class="text-xs text-neutral-600 font-medium">Past 6 months (Audited daily)</p>
+                  </div>
+                  <span class="text-[10px] font-mono font-bold text-black bg-white px-2.5 py-1 rounded-md border-2 border-black">SECURE API LINK</span>
+                </div>
+
+                <!-- Mini Graph -->
+                <div class="h-36 w-full mt-4 flex items-end">
+                  <svg class="w-full h-full" viewBox="0 0 400 150" preserveAspectRatio="none">
+                    <path class="animate-graph-line" d="M 0 130 Q 80 110 120 70 T 240 60 T 320 30 T 400 10" fill="none" stroke="#0b0b0b" stroke-width="4" stroke-linecap="round" />
+
+                    <!-- Dots -->
+                    <circle cx="120" cy="70" r="5" fill="#16a34a" stroke="#0b0b0b" stroke-width="2" />
+                    <circle cx="240" cy="60" r="5" fill="#16a34a" stroke="#0b0b0b" stroke-width="2" />
+                    <circle cx="320" cy="30" r="5" fill="#16a34a" stroke="#0b0b0b" stroke-width="2" />
+                    <circle cx="400" cy="10" r="6" fill="#16a34a" stroke="#0b0b0b" stroke-width="2" class="animate-pulse" />
+                  </svg>
+                </div>
+
+                <div class="flex justify-between items-center text-[10px] font-bold text-neutral-600 mt-4 border-t-2 border-black pt-3">
+                  <span>JAN</span>
+                  <span>FEB</span>
+                  <span>MAR</span>
+                  <span>APR</span>
+                  <span>MAY</span>
+                  <span>JUN (VERIFIED)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         PLATFORM LOGOS
+    ══════════════════════════════════════ -->
+    <section class="py-16 border-y-[3px] border-black relative bg-white">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <p class="brutal-label mb-10">Trusted Across Channels</p>
+        <div class="flex flex-wrap justify-center items-center gap-4">
+          <div class="brand-pill youtube cursor-default">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/></svg>
+            YouTube
+          </div>
+          <div class="brand-pill instagram cursor-default">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/></svg>
+            Instagram
+          </div>
+          <div class="brand-pill twitch cursor-default">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z"/><path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z"/></svg>
+            Twitch
+          </div>
+          <div class="brand-pill discord cursor-default">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/></svg>
+            Discord
+          </div>
+          <div class="brand-pill facebook cursor-default">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
+            Facebook
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         STATS
+    ══════════════════════════════════════ -->
+    <section class="py-20 border-b-[3px] border-black">
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="brutal-card p-6 text-center flex flex-col justify-center min-h-[140px]">
+          <div class="stat-num text-4xl md:text-5xl font-black text-black mb-2 tracking-tight" data-target="12000" data-suffix="k+">12k+</div>
+          <div class="text-[10px] text-neutral-600 uppercase tracking-widest font-bold">Active Jobs</div>
+        </div>
+        <div class="brutal-card p-6 text-center flex flex-col justify-center min-h-[140px]">
+          <div class="stat-num text-4xl md:text-5xl font-black text-black mb-2 tracking-tight" data-target="850" data-suffix="+">850+</div>
+          <div class="text-[10px] text-neutral-600 uppercase tracking-widest font-bold">Companies</div>
+        </div>
+        <div class="brutal-card p-6 text-center flex flex-col justify-center min-h-[140px]">
+          <div class="stat-num text-4xl md:text-5xl font-black text-black mb-2 tracking-tight" data-target="45000" data-suffix="k+">45k+</div>
+          <div class="text-[10px] text-neutral-600 uppercase tracking-widest font-bold">Creators</div>
+        </div>
+        <div class="brutal-card p-6 text-center flex flex-col justify-center min-h-[140px]">
+          <div class="stat-num text-4xl md:text-5xl font-black text-black mb-2 tracking-tight" data-target="99" data-suffix="%">99%</div>
+          <div class="text-[10px] text-neutral-600 uppercase tracking-widest font-bold">Satisfaction</div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         HOW IT WORKS
+    ══════════════════════════════════════ -->
+    <section class="px-6 py-24 max-w-6xl mx-auto" id="how">
+      <div class="fade-up mb-16 text-center md:text-left">
+        <p class="brutal-label mb-4">The Process</p>
+        <h2 class="text-4xl md:text-5xl font-black text-black mb-4 leading-tight tracking-tight">How it works</h2>
+        <p class="text-neutral-700 font-medium max-w-lg">Different paths, one goal — real hires built on verified trust. Select your role to see your journey.</p>
+      </div>
+
+      <!-- Sliding tabs -->
+      <div class="mb-12 flex justify-center md:justify-start">
+        <div class="hiw-tab-container w-full max-w-xs" id="hiw-tabs">
+          <div class="hiw-tab-slider" id="tab-slider"></div>
+          <button class="hiw-tab-btn active px-5 py-2 rounded-full text-xs flex-1" onclick="switchFlow('talent', this)">I'm a Creator</button>
+          <button class="hiw-tab-btn px-5 py-2 rounded-full text-xs flex-1" onclick="switchFlow('recruiter', this)">I'm a Recruiter</button>
+        </div>
+      </div>
+
+      <!-- Creator Flow -->
+      <div class="hiw-flow" id="flow-talent">
+        <div class="brutal-badge mb-8">✦ Creator / Talent Journey</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="fade-up brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">01</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/1.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Connect Your Channels</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Link YouTube, Twitch, X, Vimeo, Pinterest, or LinkedIn via secure OAuth. One click — no passwords shared.</p>
+          </div>
+          <div class="fade-up delay-1 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">02</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/2.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Get AI-Verified</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Our system uses perceptual hashing to confirm the work in your portfolio is genuinely yours. Earn Bronze up to Red Diamond.</p>
+          </div>
+          <div class="fade-up delay-2 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">03</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/3.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Apply or Get Discovered</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Browse job listings or let your verified profile do the talking — Pro recruiters can find and approach you.</p>
+          </div>
+          <div class="fade-up delay-3 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">04</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/4.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Land the Job</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Your badge tells recruiters your worth. Diamond creators get seen first. Get hired for work that matches your real skills.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recruiter Flow -->
+      <div class="hiw-flow hidden" id="flow-recruiter">
+        <div class="brutal-badge brutal-badge-neutral mb-8">✦ Recruiter Journey</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="fade-up brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">01</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/5.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Post Your Job</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Create a listing in minutes. Set your budget, specify the creator tier you need, and publish — free for your first month.</p>
+          </div>
+          <div class="fade-up delay-1 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">02</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/6.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">AI Matches Talent</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Arclent's AI surfaces candidates that match your brief — by niche, badge tier, platform, audience size, and more.</p>
+          </div>
+          <div class="fade-up delay-2 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">03</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/7.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Review Proposals</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">Every applicant's metrics and work have already been authenticated — no guesswork, no fakes.</p>
+          </div>
+          <div class="fade-up delay-3 brutal-card p-8 relative">
+            <span class="text-6xl font-black text-black/[0.06] absolute top-4 right-5 select-none leading-none">04</span>
+            <div class="w-14 h-14 mb-6 bg-white rounded-full p-2 flex items-center justify-center border-[3px] border-black"><img src="assets/img/3d/8.png" alt="" class="w-full h-full object-contain"></div>
+            <h3 class="text-base font-black text-black mb-2">Keep Hires Simple</h3>
+            <p class="text-xs text-neutral-600 leading-relaxed font-medium">You've seen verified proof of their work before you even say hello. That's the Arclent difference.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         BADGE SYSTEM
+    ══════════════════════════════════════ -->
+    <section class="px-6 py-24 relative overflow-hidden bg-white border-y-[3px] border-black" id="badges">
+      <div class="max-w-6xl mx-auto relative z-10">
+        <div class="fade-up mb-14 text-center md:text-left">
+          <p class="brutal-label mb-4">Verification Tiers</p>
+          <h2 class="text-4xl md:text-5xl font-black text-black mb-4 tracking-tight">The badge system</h2>
+          <p class="text-neutral-700 font-medium max-w-lg">Every creator is assigned a tier based on their authenticated reach, consistency, and platform presence.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+          <div class="tier-card tier-bronze p-6 flex flex-col justify-between relative group min-h-[290px]">
+            <div>
+              <img src="assets/img/badges/bronze.png" alt="Bronze" class="w-24 h-24 mx-auto mb-4 object-contain">
+              <h3 class="text-xl font-black text-center mb-1" style="color: #cd7f32;">Bronze</h3>
+              <p class="text-[10px] text-neutral-500 font-bold tracking-wider text-center mb-3">0 – 100K FOLLOWERS</p>
+            </div>
+            <p class="text-xs text-neutral-600 text-center leading-relaxed font-medium">Emerging creators with verified presence.</p>
+          </div>
+
+          <div class="tier-card tier-silver p-6 flex flex-col justify-between relative group min-h-[290px]">
+            <div>
+              <img src="assets/img/badges/silver.png" alt="Silver" class="w-24 h-24 mx-auto mb-4 object-contain">
+              <h3 class="text-xl font-black text-center mb-1" style="color: #7a7a7a;">Silver</h3>
+              <p class="text-[10px] text-neutral-500 font-bold tracking-wider text-center mb-3">100K – 1M FOLLOWERS</p>
+            </div>
+            <p class="text-xs text-neutral-600 text-center leading-relaxed font-medium">Growing creators with consistent history.</p>
+          </div>
+
+          <div class="tier-card tier-gold p-6 flex flex-col justify-between relative group min-h-[290px]">
+            <div>
+              <img src="assets/img/badges/gold.png" alt="Gold" class="w-24 h-24 mx-auto mb-4 object-contain">
+              <h3 class="text-xl font-black text-center mb-1" style="color: #b58900;">Gold</h3>
+              <p class="text-[10px] text-neutral-500 font-bold tracking-wider text-center mb-3">1M – 10M FOLLOWERS</p>
+            </div>
+            <p class="text-xs text-neutral-600 text-center leading-relaxed font-medium">Established creators. Multi-platform presence.</p>
+          </div>
+
+          <div class="tier-card tier-diamond p-6 flex flex-col justify-between relative group min-h-[290px]">
+            <div>
+              <img src="assets/img/badges/diamond.png" alt="Diamond" class="w-24 h-24 mx-auto mb-4 object-contain">
+              <h3 class="text-xl font-black text-center mb-1" style="color: #1a8fa3;">Diamond</h3>
+              <p class="text-[10px] text-neutral-500 font-bold tracking-wider text-center mb-3">10M – 100M FOLLOWERS</p>
+            </div>
+            <p class="text-xs text-neutral-600 text-center leading-relaxed font-medium">Top-tier creators with premium content.</p>
+          </div>
+
+          <div class="tier-card tier-reddiamond p-6 flex flex-col justify-between relative group min-h-[290px]">
+            <span class="absolute top-3 right-3 text-[8px] font-black tracking-widest text-white bg-red-500 border-2 border-black rounded-full px-2.5 py-0.5 z-10">ELITE</span>
+            <div>
+              <img src="assets/img/badges/reddiamond.png" alt="Red Diamond" class="w-24 h-24 mx-auto mb-4 object-contain">
+              <h3 class="text-xl font-black text-center mb-1" style="color: #ef4444;">Red Diamond</h3>
+              <p class="text-[10px] text-neutral-500 font-bold tracking-wider text-center mb-3">100M+ FOLLOWERS</p>
+            </div>
+            <p class="text-xs text-neutral-600 text-center leading-relaxed font-medium">Reserved for creators at the absolute peak.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         FOR WHO — SPLIT PANELS
+    ══════════════════════════════════════ -->
+    <section class="py-24 px-6 max-w-6xl mx-auto" id="for-talent">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- For Talent -->
+        <div class="fade-up brutal-card p-10 md:p-12">
+          <span class="brutal-badge mb-8 w-fit block">For Talent</span>
+          <h2 class="text-3xl md:text-4xl font-black text-black mb-5 leading-tight tracking-tight">
+            Your work speaks.<br>We prove it.
+          </h2>
+          <p class="text-sm text-neutral-700 leading-relaxed mb-8 font-medium">
+            Stop sending portfolios that get ignored. Your Arclent profile is verified proof of your work — every view count, every video, every metric, confirmed real.
+          </p>
+          <ul class="space-y-0 mb-10 divide-y-2 divide-black/10">
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              AI-verified badge that recruiters trust instantly
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Apply to jobs with one-click proposals
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              AI-written cover letters tailored to each listing
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Pinned portfolio videos front and center
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Priority verification — faster badge approval
+            </li>
+          </ul>
+          <a href="#" class="btn-brutal btn-brutal-primary inline-flex">
+            Join as a Creator
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+
+        <!-- For Recruiters -->
+        <div class="fade-up delay-1 brutal-card p-10 md:p-12">
+          <span class="brutal-badge brutal-badge-neutral mb-8 w-fit block">For Recruiters</span>
+          <h2 class="text-3xl md:text-4xl font-black text-black mb-5 leading-tight tracking-tight">
+            Find real talent.<br>Zero guesswork.
+          </h2>
+          <p class="text-sm text-neutral-700 leading-relaxed mb-8 font-medium">
+            Every candidate on Arclent has been independently verified. Stop wasting time on inflated follower counts and unverifiable portfolios.
+          </p>
+          <ul class="space-y-0 mb-10 divide-y-2 divide-black/10">
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              AI-matched talent suggestions for your brief
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Browse verified Diamond and Red Diamond creators
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Receive inbound proposals from motivated talent
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Featured job listings for premium visibility
+            </li>
+            <li class="flex items-start gap-3 py-3 text-sm text-neutral-700 font-medium">
+              <span class="w-5 h-5 rounded-full bg-green-500 border-2 border-black text-white flex items-center justify-center text-[10px] shrink-0 mt-0.5 font-bold">✓</span>
+              Global talent pool — India, US, UK, and Gulf
+            </li>
+          </ul>
+          <a href="#" class="btn-brutal btn-brutal-primary inline-flex">
+            Post Your First Job
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         LAUNCH OFFER BANNER
+    ══════════════════════════════════════ -->
+    <div class="my-4 mx-6 max-w-6xl md:mx-auto rounded-3xl py-6 px-8 text-center brutal-card bg-yellow-300">
+      <div class="inline-flex flex-wrap items-center justify-center gap-4 relative z-10">
+        <span class="brutal-badge bg-white">🎉 Launch Offer</span>
+        <span class="text-sm font-black text-black">
+          Everything on Arclent is completely free for your first month — no credit card required.
+        </span>
+        <span class="text-sm text-black/70 font-medium">After that, stay free or upgrade to unlock more.</span>
+      </div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════
+         TRENDING JOBS
+    ══════════════════════════════════════ -->
+    <section class="py-24 max-w-6xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4 fade-up">
+        <div>
+          <p class="brutal-label mb-3">Now Hiring</p>
+          <h2 class="text-3xl md:text-4xl font-black text-black tracking-tight">Trending Jobs</h2>
+          <p class="text-neutral-700 mt-2 font-medium">The most sought-after creator roles right now.</p>
+        </div>
+        <a href="#" class="btn-brutal text-sm inline-flex justify-center">
+          View all jobs
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Job Card 1 -->
+        <div class="brutal-card p-6 flex flex-col justify-between min-h-[260px]">
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="text-[9px] font-black tracking-widest text-black bg-green-300 px-2 py-0.5 rounded-full border-2 border-black uppercase">GOLD TIER +</span>
+              <span class="text-xs text-neutral-600 font-mono font-bold">$4K - $6K / mo</span>
+            </div>
+            <h3 class="text-lg font-black text-black mb-2">Lead Video Editor (Cinematic)</h3>
+            <p class="text-xs text-neutral-600 line-clamp-3 leading-relaxed mb-4 font-medium">
+              Looking for a high-level cinematic editor to craft long-form documentary-style content. Must have expert knowledge of Premiere Pro & DaVinci Resolve.
+            </p>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-black/10 pt-4">
+            <div class="flex gap-2">
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">Premiere Pro</span>
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">DaVinci</span>
+            </div>
+            <a href="#" class="text-xs font-black text-green-600 hover:underline flex items-center gap-1">Apply <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Job Card 2 -->
+        <div class="brutal-card p-6 flex flex-col justify-between min-h-[260px]">
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="text-[9px] font-black tracking-widest text-black bg-cyan-300 px-2 py-0.5 rounded-full border-2 border-black uppercase">DIAMOND TIER</span>
+              <span class="text-xs text-neutral-600 font-mono font-bold">$800 / short</span>
+            </div>
+            <h3 class="text-lg font-black text-black mb-2">3D Motion Designer</h3>
+            <p class="text-xs text-neutral-600 line-clamp-3 leading-relaxed mb-4 font-medium">
+              Need a creative motion designer to animate futuristic product renders for short-form ad campaigns. Competence in Blender/C4D required.
+            </p>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-black/10 pt-4">
+            <div class="flex gap-2">
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">Blender</span>
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">C4D</span>
+            </div>
+            <a href="#" class="text-xs font-black text-green-600 hover:underline flex items-center gap-1">Apply <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Job Card 3 -->
+        <div class="brutal-card p-6 flex flex-col justify-between min-h-[260px]">
+          <div>
+            <div class="flex justify-between items-start mb-4">
+              <span class="text-[9px] font-black tracking-widest text-black bg-orange-300 px-2 py-0.5 rounded-full border-2 border-black uppercase">BRONZE TIER +</span>
+              <span class="text-xs text-neutral-600 font-mono font-bold">Commission</span>
+            </div>
+            <h3 class="text-lg font-black text-black mb-2">YouTube Thumbnail Artist</h3>
+            <p class="text-xs text-neutral-600 line-clamp-3 leading-relaxed mb-4 font-medium">
+              Looking for a designer to create high-CTR gaming thumbnails. Must be skilled in digital painting and character composite blending.
+            </p>
+          </div>
+          <div class="flex justify-between items-center border-t-2 border-black/10 pt-4">
+            <div class="flex gap-2">
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">Photoshop</span>
+              <span class="text-[9px] bg-neutral-100 text-black font-bold px-2.5 py-1 rounded-md border-2 border-black">Composite</span>
+            </div>
+            <a href="#" class="text-xs font-black text-green-600 hover:underline flex items-center gap-1">Apply <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════
+         CTA
+    ══════════════════════════════════════ -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+      <div class="brutal-card-invert brutal-invert p-12 md:p-20 text-center relative overflow-hidden fade-up">
+        <div class="relative z-10">
+          <h2 class="text-4xl md:text-5xl font-black text-white mb-6 tracking-tight" style="letter-spacing: -0.03em;">
+            Ready to scale<br>your presence?
+          </h2>
+          <p class="text-neutral-300 text-lg mb-10 max-w-xl mx-auto leading-relaxed font-medium">
+            Join thousands of creators and companies building the future of social entertainment.
+          </p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="#" class="btn-brutal btn-brutal-accent w-full sm:w-auto justify-center">
+              Get Started Today
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+            <a href="#" class="btn-brutal btn-brutal-ghost w-full sm:w-auto justify-center">
+              Contact Support
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ── BOLD BORDERED FOOTER ── -->
+  <footer class="border-t-[3px] border-black pt-16 pb-10 px-6 bg-white relative z-10">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 mb-14">
+        <div class="col-span-2">
+          <a href="#"><img src="assets/img/logo.png" alt="Arclent" class="h-11 mb-5"></a>
+          <p class="text-sm text-neutral-600 max-w-xs mb-7 leading-relaxed font-medium">The premier job board and marketplace for social media talent and companies worldwide.</p>
+          <div class="flex gap-3">
+            <a href="#" class="w-9 h-9 rounded-full border-2 border-black bg-white flex items-center justify-center text-black hover:bg-green-300 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z" clip-rule="evenodd"/></svg>
+            </a>
+            <a href="#" class="w-9 h-9 rounded-full border-2 border-black bg-white flex items-center justify-center text-black hover:bg-green-300 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z" clip-rule="evenodd"/></svg>
+            </a>
+            <a href="#" class="w-9 h-9 rounded-full border-2 border-black bg-white flex items-center justify-center text-black hover:bg-green-300 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4"><path fill-rule="evenodd" d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z" clip-rule="evenodd"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-xs font-black uppercase tracking-widest text-black mb-5">For Talent</h5>
+          <ul class="space-y-3 text-sm text-neutral-700 font-medium">
+            <li><a class="hover:text-green-600 transition-colors" href="#">Browse Jobs</a></li>
+            <li><a class="hover:text-green-600 transition-colors" href="#">Talent Pool</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xs font-black uppercase tracking-widest text-black mb-5">For Business</h5>
+          <ul class="space-y-3 text-sm text-neutral-700 font-medium">
+            <li><a class="hover:text-green-600 transition-colors" href="#">Post a Job</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xs font-black uppercase tracking-widest text-black mb-5">Company</h5>
+          <ul class="space-y-3 text-sm text-neutral-700 font-medium">
+            <li><a class="hover:text-green-600 transition-colors" href="#">About Us</a></li>
+            <li><a class="hover:text-green-600 transition-colors" href="#">Contact</a></li>
+            <li><a class="hover:text-green-600 transition-colors" href="#">Terms</a></li>
+            <li><a class="hover:text-green-600 transition-colors" href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-8 border-t-2 border-black/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-neutral-600 font-bold uppercase tracking-widest">
+        <p>© 2026 Arclent. All rights reserved.</p>
+        <div class="flex gap-6">
+          <a class="hover:text-green-600 transition-colors" href="#">Privacy Policy</a>
+          <a class="hover:text-green-600 transition-colors" href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  /* ── Tab switching ── */
+  function switchFlow(role, btn) {
+    document.querySelectorAll('.hiw-tab-btn').forEach(t => {
+      t.classList.remove('active');
+    });
+    btn.classList.add('active');
+
+    const slider = document.getElementById('tab-slider');
+    if (slider) {
+      if (role === 'recruiter') {
+        slider.style.transform = 'translateX(100%)';
+      } else {
+        slider.style.transform = 'translateX(0)';
+      }
+    }
+
+    document.querySelectorAll('.hiw-flow').forEach(f => f.classList.add('hidden'));
+    document.getElementById('flow-' + role).classList.remove('hidden');
+  }
+
+  /* ── Scroll progress bar ── */
+  const progressBar = document.getElementById('scroll-progress');
+  function updateProgress() {
+    const scrolled = window.scrollY;
+    const total = document.documentElement.scrollHeight - window.innerHeight;
+    progressBar.style.width = (scrolled / total * 100) + '%';
+  }
+
+  /* ── Nav: hide on scroll down, show on scroll up ── */
+  let lastY = 0;
+  const navWrap = document.querySelector('.brutal-nav')?.parentElement;
+  const pillNav = document.getElementById('pill-nav');
+  function updateNav() {
+    const y = window.scrollY;
+    if (navWrap) {
+      const hiding = y > 120 && y > lastY;
+      navWrap.style.opacity    = hiding ? '0' : '1';
+      navWrap.style.transform  = hiding ? 'translateY(-20px)' : 'translateY(0)';
+      navWrap.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+    }
+    if (pillNav) pillNav.classList.toggle('nav-scrolled', y > 40);
+    lastY = y;
+  }
+
+  window.addEventListener('scroll', () => { updateProgress(); updateNav(); }, { passive: true });
+
+  /* ── Scroll-reveal: fade-up ── */
+  const revealObs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-up').forEach(el => revealObs.observe(el));
+
+  /* ── Section label underline draw ── */
+  const labelObs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('line-visible'); });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.brutal-label').forEach(el => labelObs.observe(el));
+
+  /* ── Hero word-by-word reveal ── */
+  (function revealHero() {
+    const h1 = document.getElementById('hero-h1');
+    if (!h1) return;
+    function wrapWords(node, delay) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const words = node.textContent.split(/(\s+)/);
+        const frag = document.createDocumentFragment();
+        words.forEach((w, i) => {
+          if (/^\s+$/.test(w) || w === '') {
+            frag.appendChild(document.createTextNode(w));
+          } else {
+            const span = document.createElement('span');
+            span.className = 'word-anim';
+            span.textContent = w;
+            span.style.animationDelay = (delay[0] * 60) + 'ms';
+            delay[0]++;
+            frag.appendChild(span);
+          }
+        });
+        node.parentNode.replaceChild(frag, node);
+      } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'BR') {
+        if (node.classList && node.classList.contains('brutal-highlight')) {
+          node.style.opacity = '0';
+          node.style.transform = 'translateY(16px) rotate(-1deg)';
+          node.style.transition = 'opacity 0.4s cubic-bezier(0.16,1,0.3,1), transform 0.4s cubic-bezier(0.16,1,0.3,1)';
+          node.style.transitionDelay = (delay[0] * 60) + 'ms';
+          delay[0] += 3;
+          requestAnimationFrame(() => requestAnimationFrame(() => {
+            node.style.opacity = '1';
+            node.style.transform = 'translateY(0) rotate(-1deg)';
+          }));
+          return;
+        }
+        Array.from(node.childNodes).forEach(child => wrapWords(child, delay));
+      }
+    }
+    const delay = [0];
+    Array.from(h1.childNodes).forEach(child => wrapWords(child, delay));
+    setTimeout(() => {
+      document.querySelectorAll('#hero-h1 .word-anim').forEach(s => s.classList.add('fired'));
+    }, 100);
+  })();
+
+  /* ── Social proof pills stagger ── */
+  setTimeout(() => {
+    document.querySelectorAll('.proof-pill').forEach((el, i) => {
+      setTimeout(() => el.classList.add('fired'), i * 100);
+    });
+  }, 500);
+
+  /* ── Stats counter animation ── */
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const suffix = el.dataset.suffix || '';
+    const isK = suffix.startsWith('k');
+    const display = isK ? Math.round(target / 1000) : target;
+    const duration = 1200;
+    const start = performance.now();
+    function step(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(display * ease);
+      el.textContent = current + (isK ? 'k+' : suffix);
+      if (progress < 1) requestAnimationFrame(step);
+      else el.textContent = display + (isK ? 'k+' : suffix);
+    }
+    requestAnimationFrame(step);
+  }
+
+  const statObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting && e.target.dataset.target) {
+        animateCounter(e.target);
+        statObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.stat-num[data-target]').forEach(el => statObs.observe(el));
+</script>
+
+</body>
+</html>
